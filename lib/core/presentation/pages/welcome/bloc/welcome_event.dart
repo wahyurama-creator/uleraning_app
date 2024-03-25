@@ -1,5 +1,5 @@
 part of 'welcome_bloc.dart';
 
-sealed class WelcomeEvent extends Equatable {
+class WelcomeEvent {
   const WelcomeEvent();
 }

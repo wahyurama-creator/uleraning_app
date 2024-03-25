@@ -1,10 +1,7 @@
 part of 'welcome_bloc.dart';
 
-sealed class WelcomeState extends Equatable {
-  const WelcomeState();
-}
+class WelcomeState {
+  int page;
 
-final class WelcomeInitial extends WelcomeState {
-  @override
-  List<Object> get props => [];
+  WelcomeState({this.page = 0});
 }
